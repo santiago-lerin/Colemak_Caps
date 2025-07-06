@@ -1,0 +1,17 @@
+*** /usr/local/share/X11/xkb/rules/evdev.xml.bak	Sun Jul  6 09:37:31 2025
+--- /usr/local/share/X11/xkb/rules/evdev.xml	Sun Jul  6 09:56:38 2025
+***************
+*** 3031,3036 ****
+--- 3031,3042 ----
+          </variant>
+          <variant>
+            <configItem>
++             <name>colemak_caps</name>
++             <description>English (Colemak CAPS)</description>
++           </configItem>
++         </variant>
++         <variant>
++           <configItem>
+              <name>colemak_dh</name>
+              <description>English (Colemak-DH)</description>
+            </configItem>

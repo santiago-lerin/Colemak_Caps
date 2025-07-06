@@ -1,0 +1,12 @@
+*** /usr/local/share/X11/xkb/rules/evdev.lst.bak	Sun Jul  6 09:36:47 2025
+--- /usr/local/share/X11/xkb/rules/evdev.lst	Sun Jul  6 09:55:15 2025
+***************
+*** 426,431 ****
+--- 426,432 ----
+    altgr-intl      us: English (intl., with AltGr dead keys)
+    mac             us: English (Macintosh)
+    colemak         us: English (Colemak)
++   colemak_caps    us: English (Colemak CAPS)
+    colemak_dh      us: English (Colemak-DH)
+    colemak_dh_wide us: English (Colemak-DH Wide)
+    colemak_dh_ortho us: English (Colemak-DH Ortholinear)

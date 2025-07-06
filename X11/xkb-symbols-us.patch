@@ -1,0 +1,22 @@
+*** /usr/local/share/X11/xkb/symbols/us.bak	Sun Jul  6 09:39:03 2025
+--- /usr/local/share/X11/xkb/symbols/us	Sun Jul  6 09:52:17 2025
+***************
+*** 857,862 ****
+--- 857,873 ----
+  };
+  
+  
++ // Colemak but with caps lock
++ 
++ xkb_symbols "colemak_caps" {
++ 
++     include "us(colemak)"
++ 
++     name[Group1]= "English (Colemak-CAPS)";
++     
++     key <CAPS> { [ Caps_Lock ] };
++ };
++ 
+  // Colemak-DH (ANSI) symbols for xkb on X.Org Server 7.x
+  // 2014-10-25 by SteveP, https://colemakmods.github.io/mod-dh/
+  
