@@ -37,6 +37,9 @@ To do this just do a dry startx run
 > I moved all my X11 configuration to *usr/local/share/X11*
 so, to install the patches I would have to:
 ```
+% cd Colemak_Caps
+```
+```
 # patch /usr/local/share/X11/xkb/rules/evdev.lst X11/xkb-rules-evdev.lst.patch
 ```
 ```
@@ -56,3 +59,7 @@ fell free to do whatever).
 
 Here at 5.4.5 there's an example 00-keyboard.conf
 [FreeBSD Handbook - Configuring Xorg](https://docs.freebsd.org/en/books/handbook/x11/#x-config)
+
+## Regarding Linux
+just tried it in linux, for now only in OpenSUSE tumbleweed in a X11 environment. The cammands are the same, just remove the "/local" part of the path and you are good to go.
+(restarting X11 may be necesary for any graphical configuration tool to pick up the new variant)
