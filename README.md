@@ -38,8 +38,12 @@ To do this just do a dry startx run
 so, to install the patches I would have to:
 ```
 # patch /usr/local/share/X11/xkb/rules/evdev.lst X11/xkb-rules-evdev.lst.patch
+```
+```
 # patch /usr/local/share/X11/xkb/rules/evdev.xml X11/xkb-rules-evdev.xml.patch
-# patch /usr/local/share/X11/xkb/symbols/us      X11/xkb-symbols-us.patch`  
+```
+```
+# patch /usr/local/share/X11/xkb/symbols/us      X11/xkb-symbols-us.patch
 ```
 ### Activate it
 ```
